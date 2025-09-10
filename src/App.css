@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.text-primary {
+  color: #0066cc !important;
+}
+
+.bg-primary {
+  background-color: #0066cc !important;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .row > div {
+    margin-bottom: 1rem;
+  }
+}
+
